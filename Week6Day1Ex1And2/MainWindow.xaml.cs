@@ -46,5 +46,6 @@ namespace Week6Day1Ex1And2
             myLibrary.ItemsSource = null;
             myLibrary.ItemsSource = ListofBooks.BookList;
         }
+
     }
 }

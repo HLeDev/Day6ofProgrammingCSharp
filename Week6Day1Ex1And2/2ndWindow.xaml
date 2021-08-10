@@ -47,9 +47,7 @@
         <Button Content="Deserialization - Binary" Click="btnDeBinary_Click" Background="PaleTurquoise" Grid.Column="1" FontSize="20" Margin="595,13,-645,44" Grid.Row="5" RenderTransformOrigin="0.509,0.961"/>
         <Label x:Name="lblDesBin" Content="&#x9;  Binary Deserialized Information" Grid.Column="1" FontSize="20" Margin="475,68,-803,46" Grid.Row="5" Grid.RowSpan="2" Background="#FF66EAFF"/>
         <Button Content="Deserialization - XML" Click="btndeXML_Click" Background="LightGoldenrodYellow" Grid.Column="1" FontSize="20"  Margin="595,9,-645,52"/>
-        <Label x:Name="lblDesXML" FontSize="20" Grid.Column="1" Margin="475,69,-803,15" Grid.RowSpan="2" Background="#FFD0E66C">
-            <TextBlock TextWrapping="WrapWithOverflow"></TextBlock>
-        </Label>
+        <Label x:Name="lblDesXML" FontSize="20" Grid.Column="1" Margin="475,69,-803,15" Grid.RowSpan="2" Background="#FFD0E66C"/>
     </Grid>
 
 </Window>

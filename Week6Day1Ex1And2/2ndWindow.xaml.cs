@@ -71,7 +71,7 @@ namespace Week6Day1Ex1And2
             jsonSerializer.WriteObject(jsonBuffer, obj);
             jsonBuffer.Close();
 
-            MessageBox.Show("Your book has been serialized, please Deserialized");
+            MessageBox.Show("Your book has been serialized using JSon, please Deserialized");
 
             
         }
@@ -86,7 +86,7 @@ namespace Week6Day1Ex1And2
             lblDesJson.Content = "Book ID: " + jsonobj.ID + " " + "Cateogry: " + jsonobj.Categories + " " + "Book Title: " + jsonobj.BookTitle
                 + " " + "Book Author: " + jsonobj.AuthorName + " " + "Date Inserted: " + jsonobj.DateAdded;
 
-            MessageBox.Show("Your book has been Deserialized, check your folder");
+            MessageBox.Show("Your book has been Deserialized using JSon, check your folder");
         }
 
         private void btnBinary_Click(object sender, RoutedEventArgs e)
@@ -103,7 +103,7 @@ namespace Week6Day1Ex1And2
             binaryFormatter.Serialize(filestreambin, obj);
             filestreambin.Close();
 
-            MessageBox.Show("Your book has been serialized, please Deserialized");
+            MessageBox.Show("Your book has been serialized using Binary, please Deserialized");
         }
 
         private void btnDeBinary_Click(object sender, RoutedEventArgs e)
@@ -117,7 +117,7 @@ namespace Week6Day1Ex1And2
             lblDesBin.Content = "Book ID: " + obj.ID + " " + "Cateogry: " + obj.Categories + " " + "Book Title: " + obj.BookTitle
                 + " " + "Book Author: " + obj.AuthorName + " " + "Date Inserted: " + obj.DateAdded;
 
-            MessageBox.Show("Your book has been Deserialized, check your folder");
+            MessageBox.Show("Your book has been Deserialized using Binary, check your folder");
         }
 
         private void btnXML_Click(object sender, RoutedEventArgs e)
@@ -134,7 +134,7 @@ namespace Week6Day1Ex1And2
             soapFormatter.Serialize(fileStreamxml, obj);
             fileStreamxml.Close();
 
-            MessageBox.Show("Your book has been serialized, please Deserialized");
+            MessageBox.Show("Your book has been serialized using XML, please Deserialized");
         }
 
         private void btndeXML_Click(object sender, RoutedEventArgs e)
@@ -147,7 +147,7 @@ namespace Week6Day1Ex1And2
             lblDesXML.Content = "Book ID: " + objxml.ID + " " + "Cateogry: " + objxml.Categories + " " + "Book Title: " + objxml.BookTitle
                 + " " + "Book Author: " + objxml.AuthorName + " " + "Date Inserted: " + objxml.DateAdded;
 
-            MessageBox.Show("Your book has been Deserialized, check your folder");
+            MessageBox.Show("Your book has been Deserialized using XML, check your folder");
         }
     }
 }
